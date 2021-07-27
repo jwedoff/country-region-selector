@@ -75,7 +75,7 @@ module.exports = function (grunt) {
             var regionListStr = pairs.join('|');
             js.push([
                 countryData.countryName,
-                countryData.countryShortCode,
+                countryData.countryAlphaThree,
                 regionListStr
             ]);
         });
